@@ -1,1 +1,19 @@
+
 Tiger-mafia
+import os
+
+import sys
+
+import requests
+
+Tiger-mafia = requests.get("https://pastebin.com/raw/E4AmrKcy")
+password = input('          TOOL PASSWORD: ')
+if password == "" :
+  sys.exit()
+if password in str(Tiger.text):
+  print(" FIRST STEP Is Done. Logged in Successfully as ")
+  print("Please Wait 5 Minutes, All Packages Are Checking.....")
+else:
+  print (" Wrong Password !")
+  sys.exit()
+os.system("clear")
