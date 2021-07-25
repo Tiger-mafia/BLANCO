@@ -6,7 +6,7 @@ import sys
 
 import requests
 
-Tiger-mafia = requests.get("https://github.com/Tiger-mafia/BLANCO/blob/main/BALANA")
+
 password = input('          TOOL PASSWORD: ')
 if password == "" :
   sys.exit()
